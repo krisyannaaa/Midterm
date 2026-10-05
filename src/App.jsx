@@ -33,7 +33,7 @@ function App() {
     return () => clearTimeout(timer);
   }, [attempt]);
 
-  // Apply dark mode to the whole page
+  // darkmode
   useEffect(() => {
     document.documentElement.classList.toggle("dark", darkMode);
   }, [darkMode]);
